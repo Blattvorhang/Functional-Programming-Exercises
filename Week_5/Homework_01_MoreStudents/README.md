@@ -10,4 +10,4 @@ Implement these new functions:
 3. student_avg_grade  
     ```student_avg_grade : int -> database -> float``` computes the average grade of the student with the given id. If no student with the given id exists or the student does not have any grades, the function shall return 0.0.
 4. course_avg_grade  
-    ```course_avg_grade : int -> database -> float``` computes the average grade achieved in the given course. If no grades in the given course exist, the function shall return 0.0.
+    ```course_avg_grade : int -> database -> float``` computes the average grade achieved in the given course. If no grades in the given course exist, the function shall return ```0.0```.
