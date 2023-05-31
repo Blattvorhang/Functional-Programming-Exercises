@@ -28,6 +28,6 @@ Note, that we do not store the region inside the individual nodes, but just in t
 1. **insert** \
    Implement the function ```insert : point -> quadtree -> quadtree``` that inserts a point into the tree.
 
-*Hint: You may assume that region sizes are always a power of two and that insert is only called for points $(x,y)$ that go into the tree’s region $(0 \leq x < width ∧ 0 \leq y < height)$*
+*Hint: You may assume that region sizes are always a power of two and that insert is only called for points* $(x,y)$ *that go into the tree’s region* $(0 \leq x < width ∧ 0 \leq y < height)$
 
 *Hint: The function ```print_quadtree``` is provided to save an svg-image of your tree.*
