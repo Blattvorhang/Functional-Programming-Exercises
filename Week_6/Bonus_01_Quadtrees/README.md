@@ -4,6 +4,7 @@ The quadtree data structure stores points by recursively partitioning a 2-dimens
 Let $Rect(x_1, y_1, x_2, y_2)$ denote the rectangular region with lower left corner $(x_1, y_1)$ and upper right corner $(x_2, y_2)$. We define that all points $(x, y)$ with $x_1 \leq x < x_2$ and $y_1 \leq y < y_2$  belong to this region. Every internal nde represents a rectangular region $Rect(x_1, y_1, x_2, y_2)$ and has exactly four children, which represent the equally sized subregions $Rect(x_1, y_1, x_c, y_c)$, $Rect(x_1, y_c, x_c, y_2)$, $Rect(x_c, y_1, x_2, y_c)$ and $Rect(x_c, y_c, x_2, y_2)$ respectively, where $(x_c, y_c) = (\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2})$ is the node's center point. Leaves are either empty or contain a single point.
 
 At all times, every subtree rooted at node $N$ has the minimal height required to store all points that are inside the region corresponding to $N$. Every point $(x,y)$ is stored at most once, so if the same point is inserted a second time, the tree is unchanged. The following figure shows a quadtree of size 512x512 that stores 128 points along the sine wave:
+
 ![](quadtree_sine_wave.png)
 
 We represent a quadtree node by the following sum type:
