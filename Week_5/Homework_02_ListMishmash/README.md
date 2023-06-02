@@ -1,0 +1,3 @@
+# List Mishmash
+**interleave3**  
+Implement a function `interleave3 : 'a list -> 'a list -> 'a list -> 'a` list that interleaves three lists. So for input lists `[0;1;2]`, `[10;11;12]` and `[20;21;22]` the function must return the list `[0;10;20;1;11;21;2;12;22]`. If a list is out of elements (e.g. for inputs of different lengths), the function continues interleaving the remaining lists, such that for inputs `['a';'b']`, `['A';'B';'C';'D']` and `['!']` the output `['a';'A';'!';'b';'B';'C';'D']` is produced.
