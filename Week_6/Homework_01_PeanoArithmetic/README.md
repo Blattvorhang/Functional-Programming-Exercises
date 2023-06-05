@@ -28,6 +28,6 @@ Then implement some operations on naturals in the file `ops.ml`:
 3. **pow**  
     `pow : nat -> nat -> nat` a call `pow a b` computes $a^b$.
 4. **leq**  
-    `leq : nat -> nat -> bool` a call `leq a b` computes $a≤b$
+    `leq : nat -> nat -> bool` a call `leq a b` computes $a\leq b$
 
 You are not allowed to use integers to implement the operations on naturals!
