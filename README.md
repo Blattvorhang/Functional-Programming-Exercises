@@ -19,6 +19,11 @@ The course primarily utilizes [Ocaml](https://ocaml.org) as the functional progr
 
 - [Week 7: A closer Look at Funcitons](./Week_7/)
     - Tail Calls
-    - Higher-order Functions
+    - Higher-order Functions 
     - Polymorphic Functions and Datatypes
     - Anonymous Functions
+
+- [Week 8: Practical Features of Ocaml](./Week_8/)
+    - Exceptions
+    - Input and Output as Side-effects
+    - Sequences
