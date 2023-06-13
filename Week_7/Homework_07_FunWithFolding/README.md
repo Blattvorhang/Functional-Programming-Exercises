@@ -1,5 +1,13 @@
 # Fun with Folding
-Consider the higher-order function <font size=4 face=consolas>fold_left</font>, which was defined in the lecture and is also [part of the standard List library module](https://v2.ocaml.org/api/List.html#VALfold_left). The function <font size=4 face=consolas>fold_left</font> can be used to implement many operations that scan through a list from left to right. It takes three arguments: a function <font size=4 face=consolas>f</font>, an initial accumulator, and a list. For each element <font size=4 face=consolas>x</font> in the list, the currect accumulator is combined with <font size=4 face=consolas>x</font> to produce the next accumulator value; the result of <font size=4 face=consolas>fold_left</font> is the final accumulator value. Consult the lecture slides or the documentation for the precise definition!
+Consider the higher-order function 
+<font size=4 face=consolas>fold_left</font>
+, which was defined in the lecture and is also [part of the standard List library module](https://v2.ocaml.org/api/List.html#VALfold_left). The function 
+<font size=4 face=consolas>fold_left</font>
+ can be used to implement many operations that scan through a list from left to right. It takes three arguments: a function 
+ <font size=4 face=consolas>f</font>
+ , an initial accumulator, and a list. For each element 
+ <font size=4 face=consolas>x</font>
+ in the list, the currect accumulator is combined with <font size=4 face=consolas>x</font> to produce the next accumulator value; the result of <font size=4 face=consolas>fold_left</font> is the final accumulator value. Consult the lecture slides or the documentation for the precise definition!
 
 In each of the following tasks, define a function <font size=4 face=consolas>fn</font>, so that <font size=4 face=consolas>fold_left fn a xs</font> has the specified behaviour. Do not pass your <font size=4 face=consolas>fn</font> to <font size=4 face=consolas>fold_left</font>: the tests will do that for you, with appropriate values for <font size=4 face=consolas>a</font> and <font size=4 face=consolas>xs</font>.
 
