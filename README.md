@@ -1,4 +1,4 @@
-# Functional-Programming-Exercises
+# Functional Programming Exercises
 This repository contains the exercises for the course *Functional Programming and Verification* at TUM during the Summer Semester of 2023.
 
 The course primarily utilizes [Ocaml](https://ocaml.org) as the functional programming language of choice. Codes run in Linux.
@@ -16,6 +16,7 @@ The course primarily utilizes [Ocaml](https://ocaml.org) as the functional progr
     - Enumeration Types
     - Sum Types (constructor)
     - Option
+
 - [Week 7: A closer Look at Funcitons](./Week_7/)
     - Tail Calls
     - Higher-order Functions
