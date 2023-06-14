@@ -17,13 +17,15 @@ The course primarily utilizes [Ocaml](https://ocaml.org) as the functional progr
     - Sum Types (constructor)
     - Option
 
-- [Week 7: A closer Look at Funcitons](./Week_7/)
-    - Tail Calls
-    - Higher-order Functions 
-    - Polymorphic Functions and Datatypes
-    - Anonymous Functions
+- [Week 7: A closer Look at Funcitons (Part One)](./Week_7/)
+    - Higher-order Functions
+    - Anonymous Functions ($\lambda$-Calculus)
 
-- [Week 8: Practical Features of Ocaml](./Week_8/)
+- [Week 8: A closer Look at Funcitons (Part Two)](./Week_8/)
+    - Tail Calls
+    - Polymorphic Functions and Datatypes
+
+- [Week 9: Practical Features of Ocaml](./Week_9/)
     - Exceptions
     - Input and Output as Side-effects
     - Sequences
