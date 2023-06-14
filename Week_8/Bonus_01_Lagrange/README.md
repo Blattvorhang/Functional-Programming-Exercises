@@ -12,4 +12,4 @@ l_j (x):=\prod_{0\leq k\leq n \land k \ne j} \frac{x-x_k}{x_j-x_k}
 $$
 
 1. **lagrange**  
-    Implement the function lagrange : (float * float) list -> (float -> float) that returns the interpolated polynomial $L$.
+    Implement the function `lagrange : (float * float) list -> (float -> float)` that returns the interpolated polynomial $L$.
