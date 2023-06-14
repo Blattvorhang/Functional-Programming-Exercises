@@ -1,0 +1,1 @@
+val lagrange : (float * float) list -> (float -> float)
