@@ -30,4 +30,4 @@ In each of the following tasks, define a function **fn**, so that **fold_left fn
     Define **f6**, such that **fold_left f6 \[**$v$**\] \[**$f_1$**;**$f_2$**;**$\dots$**;**$f_n$**\]** computes **\[**$f_n(\dots f_2(f_1(v))\dots)$**;**$\dots$**;**$f_2(f_1(v))$**;**$f_1(v)$**;**$v$**\]** for unary functions $f_i$​ and arbitrary $v$.
 
 7. **f7**  
-    Define **f7**, such that **fold_left f7 a \[**$c_n$**;**$c_{n-1}$**;**$\dots$**;**$c_0$**\]** computes $a^{2^{n+1}} \ast \prod_{i=0}^n c_i^{2^i}$ for integers $a,c_0,\dots,c_n$.
+    Define **f7**, such that **fold_left f7 a \[**$c_n$**;**$c_{n-1}$**;**$\dots$**;**$c_0$**\]** computes $a^{2^{n+1}}*\prod_{i=0}^nc_i^{2^i}$ for integers $a,c_0,\dots,c_n$.
