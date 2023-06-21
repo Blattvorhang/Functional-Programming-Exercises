@@ -82,11 +82,13 @@ Implement the function `knapsack : (string * int * int) list -> int -> string li
 
 *Hint: First, read all tasks of this assignment carefully, as you may identify common functionality that may be reused in different places.*
 
-*Hint: Assume that everything is always in the same case. No need to care about case-insensitive comparison.*
-*Hint: Make sure to always close all opened files (even in case of exceptions)!*
-*Hint: Remember that all IO operations can fail and throw some exception.*
-*Hint: Check the OCaml String documentation for the function `split_on_char`.*
-*Hint: Use the function `int_of_string` to convert a string to an integer. Be aware that this function may throw an exception. Check the documentation.*
+*Hint: Assume that everything is always in the same case. No need to care about case-insensitive comparison.*  
+*Hint: Make sure to always close all opened files (even in case of exceptions)!*  
+*Hint: Remember that all IO operations can fail and throw some exception.*  
+*Hint: Check the OCaml String documentation for the function `split_on_char`.*  
+*Hint: Use the function `int_of_string` to convert a string to an integer. Be aware that this function may throw an exception. Check the documentation.*  
 *Hint: If you fail the `xxx (exn)` tests but pass the others, check your exception handling for that exercise.*
+
+---
 
 *Note: For this exercise, all IO functions in the `Stdlib` and the modules `Format`, `Printf` and `Scanf` are available for use.*
