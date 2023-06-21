@@ -65,9 +65,9 @@ Now everything is together to run the present factory in the desert. Implement t
 
     - Pass this list to the present selection algorithm, together with the delivery camels' capacity (passed as the 2nd and 1st argument to `run_desert_factory`).
         
-        ```Ocaml
-        type selection_alg = (string * int * int) list -> int -> string list
-        ```
+    ```Ocaml
+    type selection_alg = (string * int * int) list -> int -> string list
+    ```
     
     - Write the selected presents to the file **"presents/**$name$**.txt"** one per line.
 
