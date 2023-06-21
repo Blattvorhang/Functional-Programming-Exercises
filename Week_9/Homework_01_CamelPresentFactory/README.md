@@ -64,10 +64,10 @@ Now everything is together to run the present factory in the desert. Implement t
     - Construct a `(string * int * int) list` which has an entry (toy,importance,weight) for all the child's wishes, where the first two parts are taken from the wish list and the weight is checked in the catalogue. Toys on the child's wish list that are not available (in the catalogue) have to be removed from the list.
 
     - Pass this list to the present selection algorithm, together with the delivery camels' capacity (passed as the 2nd and 1st argument to `run_desert_factory`).
-        
-```Ocaml
-type selection_alg = (string * int * int) list -> int -> string list
-```
+
+        ```Ocaml
+        type selection_alg = (string * int * int) list -> int -> string list
+        ```
 
     - Write the selected presents to the file **"presents/**$name$**.txt"** one per line.
 
