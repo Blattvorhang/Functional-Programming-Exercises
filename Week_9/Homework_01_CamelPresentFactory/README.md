@@ -41,10 +41,10 @@ The next thing to do is to give the Deliverer a means to print a list of present
 
 ---
 
- write_letter 2 of 2 tests passing
+**write_letter**  
 Lastly, all naughty kids do not receive any presents. Instead, the Deliverer sends them a letter telling them that they have to be more polite and stick to their programming exercises to receive any presents next year. Being old and tired, the Deliverer does not like having to greet, write over 50 characters of encouragements and then sign each letter for so many naughty children, so this really needs to be automated. Implement the function `write_letter : string -> unit` that writes such a letter into the file with the given name.
 The given filename is in the format 
-**"letters/$name$.txt"**. The Deliverer doesn't mind too much if you write the same letter for everyone but is willing to give you a little extra if you can manage personalized letters by greeting each child by name (but not by filename).
+**"letters/**$name$**.txt"**. The Deliverer doesn't mind too much if you write the same letter for everyone but is willing to give you a little extra if you can manage personalized letters by greeting each child by name (but not by filename).
 
 ---
 
@@ -55,11 +55,11 @@ Now everything is together to run the present factory in the desert. Implement t
 
 - Read the Deliverer's notes from the file **"deliverers_notes.txt"**.
 
-- For every naughty child name write a letter to the file **"letters/$name$.txt"**.
+- For every naughty child name write a letter to the file **"letters/**$name$**.txt"**.
 
 - For every nice child name:
 
-    - Read the child's wish list from the file **"wishlists/$name$.txt"**.
+    - Read the child's wish list from the file **"wishlists/**$name$**.txt"**.
 
     - Construct a `(string * int * int) list` which has an entry (toy,importance,weight) for all the child's wishes, where the first two parts are taken from the wish list and the weight is checked in the catalogue. Toys on the child's wish list that are not available (in the catalogue) have to be removed from the list.
 
@@ -69,7 +69,7 @@ Now everything is together to run the present factory in the desert. Implement t
         type selection_alg = (string * int * int) list -> int -> string list
         ```
 
-    - Write the selected presents to the file **"presents/$name$.txt"** one per line.
+    - Write the selected presents to the file **"presents/**$name$**.txt"** one per line.
 
 Errors are handled in the following way: If a child's wish list is invalid, that child is simply ignored and everyone else still has to get their presents! All other exceptions are not handled inside `run_desert_factory`.
 
