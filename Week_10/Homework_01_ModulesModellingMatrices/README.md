@@ -79,10 +79,13 @@ Write any code you want to share between tasks in `common/common.ml`.
 To not cause issues with the tests, you should not change the provided `dune` files (the tests on Artemis will ignore your `dune` files).
 
 <details>
-    <summary>Overview of dependencies</summary>
-    Example: If your implementation of `libFiniteRing` can't compile, then `libBoolRing` and `libSetRing` will not be tested and receive zero points.
+    <summary mardown="span">Overview of dependencies</summary>
 
-    Example: You can reuse any implementations you write in `libMatrix` in `libDenseMatrix` and `libSparseMatrix`, but don't change the `Matrix` signature.
+![](img/dependencies.png)
+Example: If your implementation of `libFiniteRing` can't compile, then `libBoolRing` and `libSetRing` will not be tested and receive zero points.
 
-    *Tip: You can generate similar graphs for any dune project by installing dune-deps with opam install dune-deps, then running e.g. `dune-deps | dot -Tpng > deps.png`*
+Example: You can reuse any implementations you write in `libMatrix` in `libDenseMatrix` and `libSparseMatrix`, but don't change the `Matrix` signature.
+
+*Tip: You can generate similar graphs for any dune project by installing dune-deps with opam install dune-deps, then running e.g. `dune-deps | dot -Tpng > deps.png`*
+
 </details>
