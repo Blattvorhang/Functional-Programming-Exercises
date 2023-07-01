@@ -65,7 +65,7 @@ Perform these tasks:
 - **DenseMatrix**  
     In the file `densematrix/libDenseMatrix.ml`: Implement a functor `DenseMatrix` that satisfies the `Matrix` signature. The argument of the functor is a `Ring` that provides everything to implement the matrix operations. The `DenseMatrix` is supposed to store all elements in the matrix in a list of rows, which are lists of elements. [3 points]
 - **SparseMatrix**  
-    In the file `sparsematrix/libSparseMatrix.ml`: Implement a functor `SparseMatrix` that satisfies the `Matrix` signature. The argument of the functor is a `Ring` that provides everything to implement the matrix operations. The `SparseMatrix` stores only those elements of the matrix that are non-zero. More precisely, the representation of a sparse matrix must have memory usage proportional to the number of non-zero entries in the matrix ($\mathcal{O} (n)$). [3.5 points]
+    In the file `sparsematrix/libSparseMatrix.ml`: Implement a functor `SparseMatrix` that satisfies the `Matrix` signature. The argument of the functor is a `Ring` that provides everything to implement the matrix operations. The `SparseMatrix` stores only those elements of the matrix that are non-zero. More precisely, the representation of a sparse matrix must have memory usage proportional to the number of non-zero entries in the matrix ($\mathcal\lbrace O\rbrace (n)$). [3.5 points]
 
 *Hint: You may assume that all inputs are valid, e.g. no out-of-bounds access. If you wish to handle invalid input, just throw an exception.*
 
