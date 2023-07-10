@@ -30,9 +30,9 @@ The course primarily utilizes [Ocaml](https://ocaml.org) as the functional progr
   - Input and Output as Side-effects
   - Sequences
 
-- [Week 10: Practical Features of Ocaml](./Week_10/)
+- [Week 10: The Module System of Ocaml](./Week_10/)
   - Modules
   - Signatures
   - Information Hiding
   - Functors
-  - Separate CompilationS
+  - Separate Compilation
