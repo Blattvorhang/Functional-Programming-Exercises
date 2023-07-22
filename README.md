@@ -59,4 +59,4 @@ Some used algorithms are listed here.
 - [Lagrange Interpolation](./Week_08/Bonus_01_Lagrange/)
 - [Parse Matrix](./Week_10/Homework_01_ModulesModellingMatrices/)
 - [Breadth First Search](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)
-- [$\alpha-\beta$ Prune](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)
+- [Alpha-beta Pruning](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)
