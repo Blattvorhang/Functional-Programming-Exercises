@@ -1,0 +1,5 @@
+(library
+ (name types)
+ (modules types)
+ (flags
+  (:standard -warn-error -27)))

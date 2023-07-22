@@ -1,0 +1,5 @@
+(library
+ (name assignment)
+ (libraries types)
+ (flags
+  (:standard -warn-error -27)))
