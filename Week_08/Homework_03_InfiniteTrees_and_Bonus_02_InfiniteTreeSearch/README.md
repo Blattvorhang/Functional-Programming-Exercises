@@ -14,7 +14,7 @@ Implement the following functions for infinite tree construction:
 2. `interval_tree : float -> float -> (float * float) ltree`  
     $\texttt{interval\\_tree}\enspace l_0\enspace h_0$ constructs a tree where the left and right child of every node with interval $(l,h)$ store the intervals $(l, \frac{l+h}{2})$ and $(\frac{l+h}{2}, h)$, respectively. The root stores the interval $(l_0​,h_0)$ passed as the function's arguments.
 3. `rational_tree : int -> int -> (int * int) ltree`  
-    $\texttt{rational\\tree}\enspace n_0\enspace d_0$ constructs a tree with root $(n_0,d_0)$ and for every node with pair $(n,d)$, the left child stores $(n,d+1)$ and the right child stores $(n+1,d)$.
+    $\texttt{rational\\_tree}\enspace n_0\enspace d_0$ constructs a tree with root $(n_0,d_0)$ and for every node with pair $(n,d)$, the left child stores $(n,d+1)$ and the right child stores $(n+1,d)$.
 
 Implement the following functions to work with infinite trees:
 
