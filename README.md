@@ -10,7 +10,7 @@ The score refers to the number of rounds I won.
 I hope you can learn something through this repository.
 
 ## Catalogue
-- [Week 5: Basic Syntax of Ocaml](./Week_05/)
+- [Week 5: Basic Syntax of Ocaml](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_05)
   - Pre-defined Constants and Operators
   - Pairs, Tuples and Records
   - Pattern-matching
@@ -18,32 +18,32 @@ I hope you can learn something through this repository.
   - Lists
   - Recursive Functions
 
-- [Week 6: User-defined Datatypes](./tree/main/Week_06/)
+- [Week 6: User-defined Datatypes](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_06/)
   - Enumeration Types
   - Sum Types (constructor)
   - Option
 
-- [Week 7: A closer Look at Funcitons (Part One)](./tree/main/Week_07/)
+- [Week 7: A closer Look at Funcitons (Part One)](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_07/)
   - Higher-order Functions
   - Anonymous Functions ($\lambda$-Calculus)
 
-- [Week 8: A closer Look at Funcitons (Part Two)](./tree/main/Week_08/)
+- [Week 8: A closer Look at Funcitons (Part Two)](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_08/)
   - Tail Calls
   - Polymorphic Functions and Datatypes
 
-- [Week 9: Practical Features of Ocaml](./tree/main/Week_09/)
+- [Week 9: Practical Features of Ocaml](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_09/)
   - Exceptions
   - Input and Output as Side-effects
   - Sequences
 
-- [Week 10: The Module System of Ocaml](./tree/main/Week_10/)
+- [Week 10: The Module System of Ocaml](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_10/)
   - Modules
   - Signatures
   - Information Hiding
   - Functors
   - Separate Compilation
 
-- [Week 13: Parallel Programming](./tree/main/Week_13/)
+- [Week 13: Parallel Programming](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_13/)
   - Channels
   - Selevtive Communication
   - Threads and Exceptions
