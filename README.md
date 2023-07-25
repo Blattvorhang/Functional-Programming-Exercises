@@ -9,9 +9,14 @@ Please note that all codes in this repository are intended to run on Linux syste
 Feel free to explore the exercises, work on them, and deepen your understanding of functional programming. If you have any questions or need assistance, don't hesitate to reach out.
 
 # Table of Contents
+- [Victory in Crazy Camel Competition](#victory-in-crazy-camel-competition)
 - [Excercise Contents](#excercise-contents)
 - [Algorithms](#algorithms)
 - [Achievements 🏆](#achievements-)
+
+
+# Victory in [Crazy Camel Competition](#achievements-🏆)
+![](./images/competition.gif)
 
 # Excercise Contents
 - [Week 5: Basic Syntax of Ocaml](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_05)
@@ -69,11 +74,18 @@ This repository contains a list of various algorithms that I have used. You can 
 - [Alpha-Beta Pruning](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)
 
 # Achievements 🏆
-In the final programming contest, I achieved an outstanding performance, securing the first place initially and ultimately finishing in the top three. Throughout the competition, I consistently won numerous rounds, accumulating an impressive score.
+I am thrilled to share my recent achievement in a challenging individual strategy game contest! 🥇 Throughout the competition, I showcased outstanding performance, initially securing the first place and ultimately finishing in the top three. Consistently winning numerous rounds, I accumulated an impressive score.
 
-<img src="./images/ranking.png" width="350px" alt="Ranking">
-<img src="./images/final_ranking.png" width="350px" alt="Final Ranking">
+<img src="./images/ranking.png" width="450px" alt="Ranking">
+
+<img src="./images/final_ranking.png" width="450px" alt="Final Ranking">
+
+As you can see from the ranking snapshots above, I consistently maintained a strong position in the contest, which demonstrates my dedication to excellence in strategic thinking and gameplay.
 
 <img src="./images/reward.jpg" width="450px" alt="Reward">
 
-I am excited to share my journey and experiences with you through this repository. My hope is that you can gain valuable insights and knowledge from my achievements and learning process. Feel free to explore the code and resources, and don't hesitate to reach out if you have any questions or want to discuss anything related to the contest or programming in general. Happy coding! 😊
+In addition to the satisfaction of victory, I received a well-deserved reward for my efforts. It was a delightful acknowledgment of my dedication and hard work during the contest.
+
+I am excited to share my journey and experiences with you through this repository. My hope is that you can gain valuable insights and knowledge from my achievements and learning process. Feel free to explore the code and resources, and don't hesitate to reach out if you have any questions or want to discuss anything related to the contest or programming in general.
+
+Let's continue this exciting journey of learning and strategic exploration together! Happy coding! 😊
