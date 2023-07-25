@@ -12,9 +12,9 @@ Feel free to explore the exercises, work on them, and deepen your understanding 
 - [Victory in Crazy Camel Competition](#victory-in-crazy-camel-competition)
 - [Excercise Contents](#excercise-contents)
 - [Algorithms](#algorithms)
-- [Achievements 🏆](#achievements-)
+- [Achievements](#achievements)
 
-# Victory in [Crazy Camel Competition](#achievements-)
+# Victory in [Crazy Camel Competition](#achievements)
 <img src="./images/competition.gif" width="500px" alt="Competition">
 
 # Excercise Contents
@@ -72,8 +72,9 @@ This repository contains a list of various algorithms that I have used. You can 
 - [Breadth First Search](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)
 - [Alpha-Beta Pruning](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)
 
-# Achievements 🏆
-I am thrilled to share my recent achievement in the challenging [Crazy Camel Competition](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)! 🥇 Throughout the competition, I showcased outstanding performance, initially securing the first place and ultimately finishing in the top three. Consistently winning numerous rounds, I accumulated an impressive score.
+# Achievements
+I am thrilled to share my recent achievement in the challenging [Crazy Camel Competition](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)! 🥇  
+Throughout the competition, I showcased outstanding performance, initially securing the first place and ultimately finishing in the top three. Consistently winning numerous rounds, I accumulated an impressive score.
 
 <img src="./images/ranking.png" width="450px" alt="Ranking">
 
