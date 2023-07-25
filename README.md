@@ -1,13 +1,12 @@
 # Functional Programming Exercises
-This repository contains the exercises for the course *Functional Programming and Verification* at TUM during the Summer Semester of 2023.
 
-The course primarily utilizes [Ocaml](https://ocaml.org) as the functional programming language of choice. Codes run in Linux.
+Welcome to the repository for the course *Functional Programming and Verification* at TUM during the Summer Semester of 2023.
 
-## Achievements
-In the [final contest programming excercise](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/), I used to be the first place, and finally won the third place.  
-The score refers to the number of rounds I won.
+Here, you will find a collection of exercises designed to help you practice and master functional programming concepts. The primary language used for these exercises is [Ocaml](https://ocaml.org), a powerful functional programming language.
 
-I hope you can learn something through this repository.
+Please note that all codes in this repository are intended to run on Linux systems.
+
+Feel free to explore the exercises, work on them, and deepen your understanding of functional programming. If you have any questions or need assistance, don't hesitate to reach out.
 
 ## Catalogue
 - [Week 5: Basic Syntax of Ocaml](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_05)
@@ -51,7 +50,7 @@ I hope you can learn something through this repository.
   - Multicasts
 
 ## Algorithms
-Some used algorithms are listed here.
+This repository contains a list of various algorithms that I have used. You can explore the code and find implementations for each algorithm to understand their workings better.
 
 - [Polynomial](./Week_05/Homework_04_PolynomialParty/)
 - [Quadtree](./Week_06/Bonus_01_Quadtrees/)
@@ -63,3 +62,13 @@ Some used algorithms are listed here.
 - [Parse Matrix](./Week_10/Homework_01_ModulesModellingMatrices/)
 - [Breadth First Search](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)
 - [Alpha-Beta Pruning](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)
+
+## Achievements 🏆
+In the final programming contest, I achieved an outstanding performance, securing the first place initially and ultimately finishing in the top three. Throughout the competition, I consistently won numerous rounds, accumulating an impressive score.
+
+<img src="./images/ranking.png" width="450px" alt="Ranking">
+<img src="./images/final_ranking.png" width="450px" alt="Final Ranking">
+
+<img src="./images/reward.jpg" width="450px" alt="Reward">
+
+I am excited to share my journey and experiences with you through this repository. My hope is that you can gain valuable insights and knowledge from my achievements and learning process. Feel free to explore the code and resources, and don't hesitate to reach out if you have any questions or want to discuss anything related to the contest or programming in general. Happy coding! 😊
