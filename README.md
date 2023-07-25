@@ -14,9 +14,8 @@ Feel free to explore the exercises, work on them, and deepen your understanding 
 - [Algorithms](#algorithms)
 - [Achievements 🏆](#achievements-)
 
-
 # Victory in [Crazy Camel Competition](#achievements-)
-![](./images/competition.gif)
+<img src="./images/competition.gif" width="400px" alt="Competition">
 
 # Excercise Contents
 - [Week 5: Basic Syntax of Ocaml](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_05)
