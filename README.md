@@ -15,7 +15,7 @@ Feel free to explore the exercises, work on them, and deepen your understanding 
 - [Achievements 🏆](#achievements-)
 
 # Victory in [Crazy Camel Competition](#achievements-)
-<img src="./images/competition.gif" width="400px" alt="Competition">
+<img src="./images/competition.gif" width="500px" alt="Competition">
 
 # Excercise Contents
 - [Week 5: Basic Syntax of Ocaml](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_05)
