@@ -15,7 +15,7 @@ Feel free to explore the exercises, work on them, and deepen your understanding 
 - [Achievements 🏆](#achievements-)
 
 
-# Victory in [Crazy Camel Competition](#achievements-🏆)
+# Victory in [Crazy Camel Competition](#achievements-)
 ![](./images/competition.gif)
 
 # Excercise Contents
