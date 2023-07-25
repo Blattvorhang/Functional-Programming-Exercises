@@ -73,7 +73,7 @@ This repository contains a list of various algorithms that I have used. You can 
 - [Alpha-Beta Pruning](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)
 
 # Achievements 🏆
-I am thrilled to share my recent achievement in a challenging individual strategy game contest! 🥇 Throughout the competition, I showcased outstanding performance, initially securing the first place and ultimately finishing in the top three. Consistently winning numerous rounds, I accumulated an impressive score.
+I am thrilled to share my recent achievement in the challenging [Crazy Camel Competition](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)! 🥇 Throughout the competition, I showcased outstanding performance, initially securing the first place and ultimately finishing in the top three. Consistently winning numerous rounds, I accumulated an impressive score.
 
 <img src="./images/ranking.png" width="450px" alt="Ranking">
 
