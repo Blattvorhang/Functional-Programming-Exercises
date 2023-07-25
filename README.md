@@ -82,7 +82,7 @@ Throughout the competition, I showcased outstanding performance, initially secur
 
 As you can see from the ranking snapshots above, I consistently maintained a strong position in the contest, which demonstrates my dedication to excellence in strategic thinking and gameplay.
 
-<img src="./images/reward.jpg" width="450px" alt="Reward">
+<img src="./images/reward.jpg" width="500px" alt="Reward">
 
 In addition to the satisfaction of victory, I received a well-deserved reward for my efforts. It was a delightful acknowledgment of my dedication and hard work during the contest.
 
