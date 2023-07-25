@@ -50,13 +50,16 @@ I hope you can learn something through this repository.
   - Buffered Communication
   - Multicasts
 
-## Algorithm
+## Algorithms
 Some used algorithms are listed here.
 
 - [Polynomial](./Week_05/Homework_04_PolynomialParty/)
 - [Quadtree](./Week_06/Bonus_01_Quadtrees/)
 - [Peano Arithmetic](./Week_06/Homework_01_PeanoArithmetic/)
 - [Lagrange Interpolation](./Week_08/Bonus_01_Lagrange/)
+- [In-Order Traversal (Tail-Recursive)](./Week_08/Homework_02_PolymorphicTrees/)
+- [Polymorphic Lazy (Infinite) Binary Trees](./Week_08/Homework_03_InfiniteTrees_and_Bonus_02_InfiniteTreeSearch/)
+- [Dynamic Programming (0-1 Knapsack)](./Week_09/Homework_01_CamelPresentFactory/)
 - [Parse Matrix](./Week_10/Homework_01_ModulesModellingMatrices/)
 - [Breadth First Search](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)
-- [Alpha-beta Pruning](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)
+- [Alpha-Beta Pruning](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)
