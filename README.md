@@ -8,7 +8,12 @@ Please note that all codes in this repository are intended to run on Linux syste
 
 Feel free to explore the exercises, work on them, and deepen your understanding of functional programming. If you have any questions or need assistance, don't hesitate to reach out.
 
-## Catalogue
+# Table of Contents
+- [Excercise Contents](#excercise-contents)
+- [Algorithms](#algorithms)
+- [Achievements 🏆](#achievements-)
+
+# Excercise Contents
 - [Week 5: Basic Syntax of Ocaml](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_05)
   - Pre-defined Constants and Operators
   - Pairs, Tuples and Records
@@ -49,7 +54,7 @@ Feel free to explore the exercises, work on them, and deepen your understanding 
   - Buffered Communication
   - Multicasts
 
-## Algorithms
+# Algorithms
 This repository contains a list of various algorithms that I have used. You can explore the code and find implementations for each algorithm to understand their workings better.
 
 - [Polynomial](./Week_05/Homework_04_PolynomialParty/)
@@ -63,11 +68,11 @@ This repository contains a list of various algorithms that I have used. You can 
 - [Breadth First Search](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)
 - [Alpha-Beta Pruning](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)
 
-## Achievements 🏆
+# Achievements 🏆
 In the final programming contest, I achieved an outstanding performance, securing the first place initially and ultimately finishing in the top three. Throughout the competition, I consistently won numerous rounds, accumulating an impressive score.
 
-<img src="./images/ranking.png" width="450px" alt="Ranking">
-<img src="./images/final_ranking.png" width="450px" alt="Final Ranking">
+<img src="./images/ranking.png" width="350px" alt="Ranking">
+<img src="./images/final_ranking.png" width="350px" alt="Final Ranking">
 
 <img src="./images/reward.jpg" width="450px" alt="Reward">
 
