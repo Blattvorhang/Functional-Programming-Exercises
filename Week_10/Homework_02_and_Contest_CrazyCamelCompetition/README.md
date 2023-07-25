@@ -39,9 +39,9 @@ The tiles of the $7×7$ board are labeled by their $x$ and $y$ coordinates, wher
 
 Camels are also labelled by their $x$ and $y$ coordinates. Since OCamels always face the rising sun (which rises at the origin, $0,0$), the masters label their positions according to the upper-most, left-most tile the camel is adjacent to.
 
-wall_pos.svg
+![camel positions](images/camel_positions.png)
 
-In the diagram, camels are thick black bars. The four tiles adjacent to a camel are shown in grey. The camels are labelled by the upper-left tile of the square of tiles they touch.
+*In the diagram, camels are thick black bars. The four tiles adjacent to a camel are shown in grey. The camels are labelled by the upper-left tile of the square of tiles they touch.*
 
 You can find more diagrams to visualise these rules as part of the tasks below.
 
@@ -96,6 +96,8 @@ In the first part of this exercise, you will implement some useful helper functi
 1. **camels_intersect**  
   Implement a function camels_intersect : camel -> camel -> bool. It should return true if the two camels overlap eachother. Camels overlap if they occupy the same space between two tiles or if they cross eachother.
 
+![intersection](images/intersection.png)
+
 *The first diagram shows three pairs of intersecting camels, where some camels have been drawn thinner to be able to distinguish them. None of the camels in the second diagram intersect.*
 
 2. **is_valid_move**  
@@ -117,6 +119,7 @@ type move = Move of direction
 
 A `Move` represents a player moving in that direction, whereas a `Camel` represents placing a camel at the given position. Which `Move` moves are valid are described above. Jump moves (as described above, and in the example below) that go straight are not represented any differently, e.g. `Move Left` could either be a regular move or a jump move. Jump moves that end diagonally (also see above and below) are represented by the last four constructors, e.g. moving up, then to the right to jump over an opposing master would be represented as `UpRight`, as would moving right then up. Remember, straight jump moves are only possible if the opposing OCaml master is directly adjacent to the player. Diagonal jump moves are furthermore only possible if: the opposing OCaml master is directly adjacent to the player, there is a camel behind that master, the move ends beside the opposing OCaml master, and no camel blocks the movement between the tile where the opposing master is positioned and the target tile. Additionally, check that the player does not move out of bounds (the board size is passed in the `configuration`).
 
+![valid moves](images/valid_moves.png)
 
 *In each diagram, the moves indicated by arrows are only possible exactly when no camel blocks the arrow's path. In the first diagram, there are no camels around the master, so they may move `Up`, `Down`, `Left` or `Right`. In the second diagram, the master may also move Up, Down, Left or Right. However, if they move Up they travel a total distance of two tiles to behind the opposing master. In the last diagram, the master may move `UpLeft` or `UpRight`. This is because the upper camel is directly behind the opposing OCaml master. (The master may also move right or down as in the previous examples.)*
 
@@ -127,7 +130,9 @@ A `Camel` move is valid if:
 - No camel already on the board intersects the camel being placed.
 - The placed camel does not block any player's last path to the side they are trying to reach. In particular, a player may not block themselves off.
 
-An example of four invalid camel placements.
+![invalid camels](images/invalid_camels.png)
+
+*An example of four invalid camel placements.*
 
 *Hint: you will need to implement a breadth- or depth- first search of the game board. With the rules we have defined, you only need to consider orthogonal moves (up, down, left or right) and you can ignore players that seem to block the path while doing the search, because jump moves prevent players from actually blocking the path.*
 
@@ -163,7 +168,7 @@ You can use `dune exec runner/runner.exe` to let your strategy play against itse
 ## Competition
 *The competition is a bonus exercise! However, working on a winning strategy is a great opportunity to practice everything you've learned about OCaml so far. There are also prizes, including bonus points, for the best strategies in the competition.*
 
-The two OCaml masters decided to hold a competition to find out who has the best strategy for the Crazy Camel Game. You are automatically entered into the competition by submitting a working strategy to Artemis. If you want your real name to be shown on the leaderboard, delete the file anonymous and commit and push the change (git rm anonymous then commit and push as usual).
+The two OCaml masters decided to hold a competition to find out who has the best strategy for the Crazy Camel Game. You are automatically entered into the competition by submitting a working strategy to Artemis. If you want your real name to be shown on the leaderboard, delete the file `anonymous` and commit and push the change (`git rm anonymous` then commit and push as usual).
 
 You can see the results of all games on the contest web page at [crazycaml.pl.cit.tum.de](https://crazycaml.pl.cit.tum.de).
 
@@ -182,23 +187,20 @@ Additionally, the top 10 players will receive woven camel hair strands of fine q
 In the case of ties, the tied players will all receive the same number of points, but players further down on the scoreboard will not move up because of it. For example: if two players tie for first, they will both receive 20 points, but the next player will receive 10, and no player will receive 15.
 
 ### Technical Details
-Since the provided game_state might be limiting, we have left the type state abstract. You may set state within the file assignment.ml to whatever type you find useful, for example a record type with additional tiles. (Don't change game_state or any other signatures that explicitly mention game_state though). Once you change state, you also need to change get_initial_state : random_supplier -> time_supplier -> configuration -> state. Use the implementation in the template to get an idea for what to do. Additionally, you need to change make_move_state : random_supplier -> time_supplier -> configuration -> move list -> state -> move * state. This is the function that actually plays the game. You can also look at the template for an idea of what to do here.
+Since the provided `game_state` might be limiting, we have left the type `state` abstract. You may set `state` within the file `assignment.ml` to whatever type you find useful, for example a record type with additional tiles. (Don't change `game_state` or any other signatures that explicitly mention `game_state` though). Once you change `state`, you also need to change `get_initial_state : random_supplier -> time_supplier -> configuration -> state`. Use the implementation in the template to get an idea for what to do. Additionally, you need to change `make_move_state : random_supplier -> time_supplier -> configuration -> move list -> state -> move * state`. This is the function that actually plays the game. You can also look at the template for an idea of what to do here.
 
-The functions get_initial_state and make_move_state are used as follows:
+The functions `get_initial_state` and `make_move_state` are used as follows:
 
-Once a game starts, the function get_initial_state is called once. This creates the initial state for your strategy, passed to the first call to make_move_state.
+- Once a game starts, the function `get_initial_state` is called once. This creates the initial state for your strategy, passed to the first call to `make_move_state`.
 
-Every time it's your turn, make_move_state is called with your current state. You should return a tuple of the move your strategy wants to make and an updated state. The updated state will be passed to the next call of make_move_state. The move list parameter contains a list of all moves made since the last time your strategy played, or since the beginning of the game if it hasn't had a turn yet this game. That means on the first call to make_move_state, the move list will be:
+- Every time it's your turn, `make_move_state` is called with your current state. You should return a tuple of the move your strategy wants to make and an updated state. The updated state will be passed to the next call of `make_move_state`. The `move list` parameter contains a list of all moves made since the last time your strategy played, or since the beginning of the game if it hasn't had a turn yet this game. That means on the first call to `make_move_state`, the `move list` will be:
 
-empty, if you are Player 
-0
-0
-a singleton list [m] where m is the other player's first move, if you are Player 
-1
-1.
-After the first move, the move list will always be a singleton list with the opposing player's most recent move.
+  - empty, if you are Player $0$
+  - a singleton list `[m]` where `m` is the other player's first move, if you are Player $1$.
+  
+  After the first move, the `move list` will always be a singleton list with the opposing player's most recent move.
 
-That means, at a minimum, your state should store the same information as in game_state, although the format and any additions are up to you. Also, it means that in make_move_state you are responsible for updating your state to reflect the moves that the other player and that you make, just like in the template.
+That means, at a minimum, your state should store the same information as in `game_state`, although the format and any additions are up to you. Also, it means that in `make_move_state` you are responsible for updating your state to reflect the moves that the other player and that you make, just like in the template.
 
 The `random_supplier` and `time_supplier` functions allow your strategy to use randomness and to know how much time it has left. Each call of `random_supplier ()` returns a random `float` in the (inclusive) interval $[0.0,1.0]$. Each call of `time_supplier ()` returns a non-negative `float` that indicates how much time is left to make your move, in seconds. Exactly how much time you have is defined below.
 
