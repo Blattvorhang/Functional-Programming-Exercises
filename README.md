@@ -10,15 +10,15 @@ Feel free to explore the exercises, work on them, and deepen your understanding 
 
 # Table of Contents
 - [Victory in Crazy Camel Competition](#victory-in-crazy-camel-competition)
-- [Excercise Contents](#excercise-contents)
+- [Exercise Contents](#exercise-contents)
 - [Algorithms](#algorithms)
 - [Achievements](#achievements)
 
 # Victory in [Crazy Camel Competition](#achievements)
 <img src="./images/competition.gif" width="500px" alt="Competition">
 
-# Excercise Contents
-- [Week 5: Basic Syntax of Ocaml](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_05)
+# Exercise Contents
+- [Week 5: Basic Syntax of Ocaml](https://github.com/Blattvorhang/Functional-Programming-Exercises/tree/main/Week_05)
   - Pre-defined Constants and Operators
   - Pairs, Tuples and Records
   - Pattern-matching
@@ -26,32 +26,32 @@ Feel free to explore the exercises, work on them, and deepen your understanding 
   - Lists
   - Recursive Functions
 
-- [Week 6: User-defined Datatypes](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_06/)
+- [Week 6: User-defined Datatypes](https://github.com/Blattvorhang/Functional-Programming-Exercises/tree/main/Week_06/)
   - Enumeration Types
   - Sum Types (constructor)
   - Option
 
-- [Week 7: A closer Look at Funcitons (Part One)](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_07/)
+- [Week 7: A closer Look at Funcitons (Part One)](https://github.com/Blattvorhang/Functional-Programming-Exercises/tree/main/Week_07/)
   - Higher-order Functions
   - Anonymous Functions ($\lambda$-Calculus)
 
-- [Week 8: A closer Look at Funcitons (Part Two)](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_08/)
+- [Week 8: A closer Look at Funcitons (Part Two)](https://github.com/Blattvorhang/Functional-Programming-Exercises/tree/main/Week_08/)
   - Tail Calls
   - Polymorphic Functions and Datatypes
 
-- [Week 9: Practical Features of Ocaml](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_09/)
+- [Week 9: Practical Features of Ocaml](https://github.com/Blattvorhang/Functional-Programming-Exercises/tree/main/Week_09/)
   - Exceptions
   - Input and Output as Side-effects
   - Sequences
 
-- [Week 10: The Module System of Ocaml](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_10/)
+- [Week 10: The Module System of Ocaml](https://github.com/Blattvorhang/Functional-Programming-Exercises/tree/main/Week_10/)
   - Modules
   - Signatures
   - Information Hiding
   - Functors
   - Separate Compilation
 
-- [Week 13: Parallel Programming](https://github.com/Blattvorhang/Functional-Programming-Excercises/tree/main/Week_13/)
+- [Week 13: Parallel Programming](https://github.com/Blattvorhang/Functional-Programming-Exercises/tree/main/Week_13/)
   - Channels
   - Selevtive Communication
   - Threads and Exceptions
