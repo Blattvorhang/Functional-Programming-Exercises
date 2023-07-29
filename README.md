@@ -53,7 +53,7 @@ Feel free to explore the exercises, work on them, and deepen your understanding 
 
 - [Week 13: Parallel Programming](https://github.com/Blattvorhang/Functional-Programming-Exercises/tree/main/Week_13/)
   - Channels
-  - Selevtive Communication
+  - Selective Communication
   - Threads and Exceptions
   - Buffered Communication
   - Multicasts
