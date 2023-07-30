@@ -68,7 +68,7 @@ This repository contains a list of various algorithms that I have used. You can 
 - [In-Order Traversal (Tail-Recursive)](./Week_08/Homework_02_PolymorphicTrees/)
 - [Polymorphic Lazy (Infinite) Binary Trees](./Week_08/Homework_03_InfiniteTrees_and_Bonus_02_InfiniteTreeSearch/)
 - [Dynamic Programming (0-1 Knapsack)](./Week_09/Homework_01_CamelPresentFactory/)
-- [Parse Matrix](./Week_10/Homework_01_ModulesModellingMatrices/)
+- [Sparse Matrix](./Week_10/Homework_01_ModulesModellingMatrices/)
 - [Breadth First Search](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)
 - [Alpha-Beta Pruning](./Week_10/Homework_02_and_Contest_CrazyCamelCompetition/)
 
