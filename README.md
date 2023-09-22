@@ -64,6 +64,8 @@ This repository contains a list of various algorithms that I have used. You can 
 - [Polynomial](./Week_05/Homework_04_PolynomialParty/)
 - [Quadtree](./Week_06/Bonus_01_Quadtrees/)
 - [Peano Arithmetic](./Week_06/Homework_01_PeanoArithmetic/)
+- [Y Combinator]()
+- [Minimum Spanning Tree (Prim's Algorithm)](./Week_07/Homework_03_ShiftingSands/)
 - [Lagrange Interpolation](./Week_08/Bonus_01_Lagrange/)
 - [In-Order Traversal (Tail-Recursive)](./Week_08/Homework_02_PolymorphicTrees/)
 - [Polymorphic Lazy (Infinite) Binary Trees](./Week_08/Homework_03_InfiniteTrees_and_Bonus_02_InfiniteTreeSearch/)
