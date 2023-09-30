@@ -137,4 +137,68 @@ The remaining hints will help you if you get stuck! Try to get as far as you can
 <details>
     <summary mardown="span">Hint 1</summary>
 
-</details>
+Last week's expressions were plain and bland. For any given expression, there were a finite number of steps we had to take before we arrived at a result. As part of his investigation into the foundations of mathematics in the 1930s, Alonzo Church discovered and presented the so-called [*lambda-calculus*](https://en.wikipedia.org/wiki/Lambda_calculus). The *lambda-calculus* also consists only of finite expressions, but they can represent any computable function! In fact, it is one of *the definitions* of computable functions, along with Turing's Turing machines, Schönfinkel and Curry's combinatory logic, and Markov's Markov algorithms (and more!). The expressions we have defined this week are fun and exciting, because they share many similarites with the expressions of lambda calculus. Our way of evaluating expressions, much like in lambda calculus, allows us to evaluate any computable function!
+
+<details>
+    <summary mardown="span">Hint 2</summary>
+
+The exercise explicitly forbids any sort of recursive definition. Lambda calculus also has no notion of recursion, because all functions are *anonymous*: they are defined where they are used as lambda-expressions.
+
+Because we still need recursion sometimes, we can use [*fixed-point combinators*](https://en.wikipedia.org/wiki/Fixed-point_combinator), which are functions that apply a function to itself in a clever way to allow for (a form of) recursion.
+
+The typical Y-Combinator won't work, because our expressions are strict. Instead, find a combinator that will work for strict programming lanugages.
+
+<details>
+    <summary mardown="span">Hint 2.1: Alternative to Y-Combinator</summary>
+
+The [*Z-Combinator*](https://en.wikipedia.org/wiki/Fixed-point_combinator#Strict_fixed-point_combinator) will do the trick. Here is a definition as one of our `expr`essions:
+
+<details>
+    <summary mardown="span">Hint 2.2: The Z-Combinator</summary>
+
+```ocaml
+fun f -> let g = fun x -> f fun v -> x x v in g g
+```
+*Hint: like all examples on this page (except those in the first section) the above is not actually an OCaml expression, but a pretty-printed `expr` value. Trying to use the above as an OCaml expression will result in a type error; a work-around is given in the linked Wikipedia article.*
+
+</details> <!-- Hint 2.2 -->
+
+</details> <!-- Hint 2.1 -->
+
+<details>
+    <summary mardown="span">Hint 3</summary>
+
+As you might have guessed, your solution needs to be recursive in some way. Not sure how to use the Z-Combinator?
+
+Here is an example defining the factorial function (for inputs where the denominator is 1, and the numerator is non-negative, i.e. $\text{N}_0$ ).
+
+```ocaml
+let z = fun f -> let g = fun x -> f fun v -> x x v in g g in
+let equal = fun x -> fun y -> if x - y then (0/1) else (1/1) in
+let f =
+  fun self -> fun n -> if equal n (0/1) then (1/1) else n * self (n - (1/1))
+in
+z f
+```
+Note that the above definition is *curried*. We could rewrite the last line as:
+```ocaml
+fun r -> z f r
+```
+to be more explicit about defining a function that takes one input and returns the value of some `v f r`.
+
+<details>
+    <summary mardown="span">Hint 4</summary>
+
+You have no way of comparing the sizes of rationals, but you do have a way of checking if two rationals are equal:
+```ocaml
+fun x -> fun y -> if x - y then (0/1) else (1/1)
+```
+The rest is up to you! Good luck!
+
+</details> <!-- Hint 4 -->
+
+</details> <!-- Hint 3 -->
+
+</details> <!-- Hint 2 -->
+
+</details> <!-- Hint 1 -->
